@@ -38,6 +38,7 @@ h1 {
 	background-color: #4aaaa5;
 	color: white;
 	padding: 15px;
+	height: 100%
 }
 
 input {
@@ -62,7 +63,7 @@ nav {
 	position: absolute;
 	display: inline-block;
 	float: right;
-	bottom: 7px;
+	bottom: 9px;
 	right: 0px;
 }
 
@@ -80,6 +81,42 @@ button {
 	color: white;
 	margin-top: 10px;
 	border: none;
+}
+
+.portfolio-image {
+	height: 100%;
+	width: 100%;
+}
+
+
+.left-tile {
+	position: relative;
+	height: 170px;
+	width: 230px;
+	display: inline-block;
+	float-left;
+	margin-right: 40px;
+}
+
+.right-tile {
+	position: relative;
+	height: 170px;
+	width: 230px;
+	display: inline-block;
+}
+
+.right-tile, .left-tile {
+	margin-bottom: 40px;
+}
+
+.text-overlay p{
+	position: absolute;
+	bottom: 10px;
+	background-color: #4aaaa5;
+	width: 100%;
+	color: white;
+	z-index: 2;
+	text-align: center;
 }
 
 #navsection {
@@ -119,7 +156,7 @@ button {
 
 .footer {
 	position: relative;
-	border-top: 3px solid #4aaaa5;
+	border-top: 6px solid #4aaaa5;
 	font-size: 50%;
 	background-color: #666666;
 	min-height: 70px;
